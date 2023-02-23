@@ -1,0 +1,192 @@
+/****** BANNER ******/
+.header {
+    border-radius: 0.9em;
+    padding: 0.1em 2em 1em;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    text-align: start;
+    color: white;
+}
+
+.text-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5em 2.5em 2.5em;
+}
+
+.text-header p {
+    width: 50%;
+    line-height: 2.5em;
+}
+
+.header img {
+    width: 100%;
+    height: 75vh;
+    border-radius: 0.9em;
+    object-fit: cover;
+}
+
+/****** END BANNER ******/
+
+
+/****** PRODUCTS ******/
+
+section.header,
+.row-products,
+.categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    padding: 1.1em;
+    position: relative;
+}
+
+.categories {
+    gap: 2%;
+}
+
+.categories li {
+    padding: 1%;
+}
+
+.section .categories li.active {
+    border-bottom: 2px solid #2a6477;
+}
+
+.start {
+    text-align: start;
+    padding: 1em 0.5em;
+}
+
+.start .categories {
+    justify-content: start;
+}
+
+.categories li.label {
+    font-weight: 600;
+}
+
+
+.row-products {
+    padding: 0 1em;
+    gap: 15px;
+}
+
+.row-products .card-product,
+.row-products .card-product-best {
+    width: 25%;
+}
+
+.row-products .card-product-best {
+    box-shadow: 2px 2px 2px #EFEFEF, -2px -2px 2px #EFEFEF;
+    border-radius: 0.9em;
+}
+
+.row-products .card-product .card-img,
+.row-products .card-product-best .card-img {
+    width: 100%;
+    height: 250px;
+}
+
+.row-products .card-product .card-img {
+    background-color: #f6f6f6;
+    border-radius: 2em;
+}
+
+.row-products .card-product-best .card-img img,
+.row-products .card-product .card-img img {
+    max-inline-size: 100%;
+    block-size: auto;
+    aspect-ratio: 2/1;
+    object-fit: cover;
+    object-position: top center;
+}
+
+/***** END PRODUCT *****/
+
+
+/****** PRESENTATION ROW ******/
+
+.row {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.row-bg {
+    background: url('./assets/alton_guy.jpg') center no-repeat;
+    background-size: cover;
+}
+
+.row .col {
+    padding: 1em;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    text-align: start;
+    color: white;
+    width: 50%;
+    height: 100%;
+}
+
+.row .col p {
+    font-weight: 700;
+    line-height: 2em;
+}
+
+
+.padding {
+    padding: 1em 0;
+}
+
+/****** END PRESENTATION ******/
+
+/***** BLUE BANNER *****/
+
+.banner-blue-end {
+    width: 95%;
+    height: 250px;
+    background-color: #2a6477;
+    border-radius: 1.2em;
+    padding: 1em;
+    margin: 5.8em 0 0 2em;
+    color: white;
+    text-align: start;
+    justify-items: center;
+    justify-content: space-between;
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+
+.banner-blue-end div:nth-child(1) {
+    padding-left: 4em;
+}
+
+.banner-blue-end img {
+    width: 30%;
+    top: -40%;
+    right: 5%;
+    position: absolute;
+}
+
+.banner-blue-end img.left {
+    width: 30%;
+    top: -65%;
+    left: 1%;
+    position: absolute;
+}
+
+.banner-blue-end h2 {
+    line-height: 1.8em;
+}
+
+.end {
+    width: 42%;
+}
