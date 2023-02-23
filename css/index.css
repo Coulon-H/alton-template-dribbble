@@ -119,7 +119,7 @@ section.header,
 }
 
 .row-bg {
-    background: url('assets/alton_guy.jpg') center no-repeat;
+    background: url('../assets/alton_guy.jpg') center no-repeat;
     background-size: cover;
 }
 
