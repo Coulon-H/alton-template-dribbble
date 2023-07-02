@@ -87,3 +87,21 @@
     object-fit: cover;
     object-position: center;
 }
+
+@media screen and (max-width : 380px) {
+
+    .text-header {
+        text-align: center;
+        padding: 2.5em 1.5em;
+        width: 100%;
+    }
+
+    .imgs{
+        display: none;
+    }
+
+    .card-service, .card-team {
+        padding: 0 1em;
+        width: 100%;
+    }
+}
